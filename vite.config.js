@@ -56,8 +56,6 @@
 //     chunkSizeWarningLimit: 1000,
 //   },
 // })
-
-
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
@@ -66,7 +64,6 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   build: {
     target: 'esnext',
-    // minify भी अभी हटा दो ताकि terser issue ना आए
     chunkSizeWarningLimit: 1000,
   },
 })
