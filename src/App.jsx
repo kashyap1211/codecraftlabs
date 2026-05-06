@@ -7,6 +7,7 @@ import LandingPage from "./Pages/LandingPage";
 import AboutUs from "./Pages/AboutUs";
 import ScrollToTop from "./Components/ScrollToTop";
 import { Toaster } from "react-hot-toast";
+import WhatsAppButton from "./Components/WhatsAppButton";
 
 // Lazy loading heavy pages
 const ServicesPage = lazy(() => import("./Pages/ServicesPage"));
@@ -17,9 +18,9 @@ const ProjectDetails = lazy(() => import("./Containers/Portfolio/ProjectDetails"
 function App() {
   return (
     <Router>
-
-       <ScrollToTop />
-        <Toaster position="top-right" reverseOrder={false} />
+      <WhatsAppButton />
+      <ScrollToTop />
+      <Toaster position="top-right" reverseOrder={false} />
       <Suspense fallback={
         <div className="h-screen w-full flex items-center justify-center bg-white">
           <div className="w-10 h-10 border-4 border-[#00A86B] border-t-transparent rounded-full animate-spin"></div>
@@ -27,7 +28,7 @@ function App() {
       }>
         <Routes>
           <Route path={path.home} element={<LandingPage />} />
-          
+
           <Route
             path={path.aboutus}
             element={<LandingPage screen={<AboutUs />} />}

@@ -144,8 +144,17 @@ const pages = [
   { name: "Contact", path: path.contact },
 ];
 
+const socialLinks = [
+  { icon: FaFacebookF, link: "https://www.facebook.com/share/17grk51dG3/" },
+  { icon: FaInstagram, link: "https://www.instagram.com/_codecraftlabs_?igsh=b3B5bDBjejV6YW5w" },
+  { icon: FaLinkedinIn, link: "https://www.linkedin.com/in/codecraft-labs-a28387406?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
+];
+
+
 const Footer = () => {
   const location = useLocation();
+
+  
 
   return (
     <footer className="relative bg-[#0B132B] text-white pt-20 pb-6 overflow-hidden">
@@ -239,16 +248,19 @@ const Footer = () => {
           </div>
 
           {/* SOCIAL */}
-          <div className="flex gap-3 mt-5">
-            {[FaFacebookF, FaInstagram, FaLinkedinIn].map((Icon, i) => (
-              <div
-                key={i}
-                className="p-2.5 bg-white/[0.05] border border-white/[0.08] rounded-full cursor-pointer hover:bg-[#00A86B] hover:border-[#00A86B] transition hover:-translate-y-1"
-              >
-                <Icon />
-              </div>
-            ))}
-          </div>
+        <div className="flex gap-3 mt-5">
+  {socialLinks.map(({ icon: Icon, link }, i) => (
+    <a
+      key={i}
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="p-2.5 bg-white/[0.05] border border-white/[0.08] rounded-full cursor-pointer hover:bg-[#00A86B] hover:border-[#00A86B] transition hover:-translate-y-1"
+    >
+      <Icon />
+    </a>
+  ))}
+</div>
         </div>
 
       </div>

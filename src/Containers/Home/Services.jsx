@@ -7,6 +7,7 @@ import {
   FaMobileAlt,
   FaSearch
 } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const mainService = {
   title: "Custom Web & App Development",
@@ -23,6 +24,7 @@ const services = [
 ];
 
 const Services = () => {
+  const navigate = useNavigate();
   return (
     <section className="relative w-full py-24 overflow-hidden bg-[#0B132B]">
 
@@ -78,7 +80,7 @@ const Services = () => {
             <p className="relative z-10 text-white/85 text-sm leading-relaxed mb-8">
               {mainService.desc}
             </p>
-            <button className="relative cursor-pointer z-10 bg-white text-[#00A86B] px-6 py-3 rounded-full font-bold text-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+            <button onClick={() => navigate("/services")} className="relative cursor-pointer z-10 bg-white text-[#00A86B] px-6 py-3 rounded-full font-bold text-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
               Get Started →
             </button>
           </div>
