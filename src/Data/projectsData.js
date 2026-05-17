@@ -154,12 +154,7 @@ export const projectsData = [
 
   tech: ["React", "Node.js", "Express.js", "MySQL"],
 
-  images: [
-    spreyhome,
-    spreyproducts,
-    spreycollection,
-    spreycheckout,
-  ],
+  images: [spreyallscreen],
 }
 
 ];
