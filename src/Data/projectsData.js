@@ -19,11 +19,14 @@ import clinicstaff from "../assets/Images/staffdashboard.png";
 import clinicplateformcommission from "../assets/Images/plateformcommission.png";
 
 
+
 import realestatecrm from "../assets/Images/real-eastate.png";
 import realestateowner from "../assets/Images/owner-dashboard.png";
 import realestateemployee from "../assets/Images/real-eatate-employee-dashboard.png";
 import realestateleads from "../assets/Images/real-estat-followups.png";
 import realestateproperty from "../assets/Images/real-estatreports.png";
+
+import spreyallscreen from "../assets/Images/spreallscreen.png";
 
 
 export const projectsData = [
