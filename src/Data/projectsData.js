@@ -125,6 +125,36 @@ export const projectsData = [
     realestateleads,
     realestateproperty,
   ],
+},
+{
+  id: 5,
+  slug: "sprey-ecommerce-website",
+  title: "Sprey E-commerce Website",
+  category: "Web Development",
+  image: spreyallscreen,
+
+  description:
+    "A modern perfume and spray e-commerce website built to deliver a premium shopping experience for customers. The platform showcases luxury fragrances, product collections, special offers, and provides a smooth online purchasing system with secure backend management.",
+
+  features: [
+    "Responsive Home, Shop, Product Details, Cart & Checkout Pages",
+    "User Authentication and Secure Login System",
+    "Add to Cart, Wishlist & Order Management Functionality",
+    "Product Categories, Search & Filter Options",
+    "Admin Dashboard for Product and Order Management",
+    "Integrated Payment and Shipping Workflow",
+    "Optimized UI/UX with fast loading performance",
+  ],
+
+  tech: ["React", "Node.js", "Express.js", "MySQL"],
+
+  images: [
+    spreyhome,
+    spreyproducts,
+    spreycollection,
+    spreycheckout,
+  ],
 }
+
 ];
 
