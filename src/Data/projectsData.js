@@ -28,10 +28,10 @@ import realestateproperty from "../assets/Images/real-estatreports.png";
 
 import spreyallscreen from "../assets/Images/spreallscreen.png";
 
-import spreyhome from "../assets/sprey/spreallscreen.png";
-import spreyproducts from "../assets/sprey/spreallscreen.png";
-import spreycollection from "../assets/sprey/spreallscreen.png";
-import spreycheckout from "../assets/sprey/spreallscreen.png";
+// import spreyhome from "../assets/sprey/spreallscreen.png";
+// import spreyproducts from "../assets/sprey/spreallscreen.png";
+// import spreycollection from "../assets/sprey/spreallscreen.png";
+// import spreycheckout from "../assets/sprey/spreallscreen.png";
 export const projectsData = [
   {
     id: 1,
