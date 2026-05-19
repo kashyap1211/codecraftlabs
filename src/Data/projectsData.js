@@ -28,10 +28,10 @@ import realestateproperty from "../assets/Images/real-estatreports.png";
 
 import spreyallscreen from "../assets/Images/spreallscreen.png";
 
-// import spreyhome from "../assets/sprey/spreallscreen.png";
-// import spreyproducts from "../assets/sprey/spreallscreen.png";
-// import spreycollection from "../assets/sprey/spreallscreen.png";
-// import spreycheckout from "../assets/sprey/spreallscreen.png";
+import spreyhome from "../assets/Images/spre1.png";
+import spreyproducts from "../assets/Images/spre2.png";
+import spreycollection from "../assets/Images/spre3.png";
+import spreycheckout from "../assets/Images/spre4.png";
 export const projectsData = [
   {
     id: 1,
@@ -154,7 +154,7 @@ export const projectsData = [
 
   tech: ["React", "Node.js", "Express.js", "MySQL"],
 
-  images: [spreyallscreen],
+  images: [spreyhome , spreyproducts , spreyproducts , spreycollection],
 }
 
 ];
