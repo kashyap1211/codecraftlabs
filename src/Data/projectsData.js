@@ -32,6 +32,14 @@ import spreyhome from "../assets/Images/spre1.png";
 import spreyproducts from "../assets/Images/spre2.png";
 import spreycollection from "../assets/Images/spre3.png";
 import spreycheckout from "../assets/Images/spre4.png";
+
+import insuranceallscreen from "../assets/Images/AllScreenConsult.png";
+import insurancehome from "../assets/Images/1consult.png";
+import insuranceservices from "../assets/Images/2consult.png";
+import insuranceplans from "../assets/Images/3consult.png";
+import insurancecontact from "../assets/Images/4consult.png";
+
+
 export const projectsData = [
   {
     id: 1,
@@ -155,6 +163,34 @@ export const projectsData = [
   tech: ["React", "Node.js", "Express.js", "MySQL"],
 
   images: [spreyhome , spreyproducts , spreyproducts , spreycollection],
+},
+{
+  id: 6,
+  slug: "insurance-consulting-website",
+  title: "Insurance Consulting Website",
+  category: "Web Development",
+  image: insuranceallscreen,
+
+  description:
+    "A professional insurance consulting website designed to help users explore insurance plans, financial protection services, and connect easily with expert consultants. The platform provides a clean and trustworthy user experience for clients seeking insurance guidance.",
+
+  features: [
+    "Responsive Home, About, Services & Contact Pages",
+    "Insurance Plans Showcase with detailed information",
+    "Consultation Inquiry Form for lead generation",
+    "User-friendly and professional UI/UX design",
+    "Secure contact and customer interaction system",
+    "Fast loading and SEO-optimized structure",
+  ],
+
+  tech: ["React", "Node.js", "Express.js", "MySQL"],
+
+  images: [
+    insurancehome,
+    insuranceservices,
+    insuranceplans,
+    insurancecontact,
+  ],
 }
 
 ];
